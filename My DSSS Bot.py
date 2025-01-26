@@ -40,8 +40,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# My api token from BotFather
-API_TOKEN = "8016136987:AAEcqhpf9mWTAIde6ohIEhUU43dtZObiFgY"
+# My api token from BotFather 
+# I hide it for security reason
+
 
 # Load the language model pipeline
 logger.info("Loading the language model...")
